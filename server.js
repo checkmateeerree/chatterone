@@ -28,4 +28,4 @@ io.on('connection', socket => {
   })
 })
 
-server.listen(11111)
+server.listen(process.env.PORT || 3000)
